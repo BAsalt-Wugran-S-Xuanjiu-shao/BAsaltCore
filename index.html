@@ -1,12 +1,80 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="zh-CN" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>服务器文档</title>
-</head>
-<body>
-    <h1>欢迎来到我的服务器文档</h1>
-    <p>这里是关于我的服务器的文档内容。</p>
-</body>
+    <meta name="description" content="--服务器开发组">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="app">
+      <header class="VPNav">
+        <div class="VPNavBar top">
+          <div class="wrapper">
+            <div class="container">
+              <div class="title">
+                <div class="VPNavBarTitle">
+                  <a class="title" href="/">
+                    <span>服务器文档</span>
+                  </a>
+                </div>
+              </div>
+              <div class="content">
+                <div class="content-body">
+                  <nav aria-labelledby="main-nav-aria-label" class="VPNavBarMenu menu">
+                    <span id="main-nav-aria-label" class="visually-hidden">Main Navigation</span>
+                    <a class="VPLink link VPNavBarMenuLink active" href="/" tabindex="0">
+                      <span>文档主页</span>
+                    </a>
+                    <a class="VPLink link vp-external-link-icon VPNavBarMenuLink" href="https://www.example.com" target="_blank" rel="noreferrer" tabindex="0">
+                      <span>工作室主页</span>
+                    </a>
+                    <a class="VPLink link vp-external-link-icon VPNavBarMenuLink" href="http://example.com/join" target="_blank" rel="noreferrer" tabindex="0">
+                      <span>加入群聊</span>
+                    </a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="VPContent is-home" id="VPContent">
+        <div class="VPHome">
+          <div class="VPHero has-image VPHomeHero">
+            <div class="container">
+              <div class="main">
+                <h1 class="name">
+                  <span class="clip">服务器文档</span>
+                </h1>
+                <div class="actions">
+                  <div class="action">
+                    <a class="VPButton medium brand" href="https://www.example.com" target="_blank" rel="noreferrer">主页</a>
+                  </div>
+                  <div class="action">
+                    <a class="VPButton medium brand" href="/docs/">文档</a>
+                  </div>
+                </div>
+              </div>
+              <div class="image">
+                <div class="image-container">
+                  <div class="image-bg"></div>
+                  <img class="VPImage image-src" src="logo.png" alt="服务器文档">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="VPFooter">
+        <div class="container">
+          <p class="message">服务器开发组</p>
+          <p class="copyright">Copyright © 2021-2024</p>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
