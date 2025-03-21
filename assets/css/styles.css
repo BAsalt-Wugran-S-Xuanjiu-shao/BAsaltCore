@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.VPNav {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 0;
+}
+
+.VPNavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.VPNavBarTitle {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.VPNavBarMenu {
+    display: flex;
+    gap: 20px;
+}
+
+.VPLink {
+    color: white;
+    text-decoration: none;
+}
+
+.VPLink:hover {
+    text-decoration: underline;
+}
+
+.VPHome {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.VPHero {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.VPButton {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.VPButton:hover {
+    background-color: #0056b3;
+}
+
+.VPFooter {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
